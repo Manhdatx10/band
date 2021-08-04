@@ -1,0 +1,335 @@
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Vị trí 
+Kích thước 
+Màu sắc
+kiểu daáng */
+.clear {
+    clear:both;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.conta {
+    width: 100%;
+}
+#main {
+
+}
+#nav {
+    display: inline-block;
+}
+#header {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 46.4px;
+    background-color: black;
+    font-family: Lato,sans-serif;
+    position: fixed;
+    z-index: 1  ;
+
+}
+#nav > li > a {
+    color: white;
+    text-transform: uppercase   ;
+
+}
+#nav li:hover .more1 {
+    display: block;
+}
+#header .serch-icon {
+    color: whitesmoke;
+    font-size: 14px;
+    line-height: 46.4px;
+}
+#nav li {
+    display: inline-block;
+    position: relative;
+    
+}
+#nav .more1 li{
+    display: block;
+}
+#nav .more1 {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display:none;
+    background-color: white;
+    position: absolute;
+    min-width: 160px;
+
+}
+#nav .nav-around-down{
+    font-size: 14px;
+}
+#nav .more1 li:hover a, #nav > li:hover > a {
+    background-color: #ccc;
+    color: #333;
+}
+#header .serch:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+#header .serch {
+    float: right;
+    padding: 0 24px;
+}
+#nav li a {
+    line-height: 22.5px;;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 12px 24px;
+    display: block;
+}
+#nav .more1 a{
+    line-hight: 46px;
+    padding: 0 16px;
+    color: black;
+
+}
+#slider {
+    margin-top: 46px;
+    position: relative; 
+}
+#slider .slide1 {
+
+    color:#fff;
+    position: absolute;
+    bottom: 64px;
+    line height:1.5px;
+    /* left:   50%;
+    transform: translateX(-50%);  */
+    width:100%;
+    text-align :center;
+    vertical-align: middle;
+}
+#slider .slide1-1 {
+    font-weight: 500;
+    font-size:24px;
+}
+#slider .slide1-2 {
+    margin-top:25px;
+    font-size:15px;
+}
+#contanter {
+}
+#contanter .conten-section {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    padding: 64px 16px;
+}
+#contanter .section-heading {
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 4px;
+    font-weight: 500;
+    text-align: center;
+    margin: 10px 0px;
+}
+#contanter .section-heading1 {
+    text-align: center;
+    margin: 15px 0px;
+    opacity: 0.4;
+
+}
+#contanter .section-heading2 {
+    margin: 15px 0px;
+}
+#contanter .member-picture {
+    padding: 32 0px;
+    overflow: hidden;
+   
+    
+}
+#contanter .picture {
+    
+    float:left;
+    text-align: center; width: 33.33333%;
+    line-height: ;
+}
+#contanter .member-name{
+    margin: 15px 0px;
+    
+}
+#contanter .member-picture1 {
+    margin-bottom: 16px;
+    width: 154px;
+    border-radius: 5px;
+
+}
+#contanter .conten-new {
+    background-color: black;
+}
+.tour-date {
+    color:#fff;
+    text-align: center;
+
+}
+
+#contanter .conten-setion1 { 
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 16px;
+    
+}
+#contanter .tour-heading {
+    margin: 10px 0px;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing :4px;
+}
+#contanter .tour-heading1 {
+    margin: 15px 0px;
+    font-size:15px;
+    opacity: 0.4;
+}
+#contanter .list-tour{
+    background:#fff;
+}
+#contanter .conten-setion1 li {
+    font-size: 15px;
+    padding:8px 16px;
+    border-bottom: 1px solid #ddd;
+}
+.list-span {
+    background: #F44336;
+    color: #fff;
+    padding: 0 8px;
+    margin-left:16px;
+}
+.list-span2 {
+    width: 24px;
+    height: 22px;
+    background:#000;
+    border-radius: 50%;
+    float: right;
+    display:inline-block;
+    color:#fff;
+    margin-right: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding: 0px 8px;
+}
+.picture-country {
+    display: block;
+    opacity: 0.8;
+    width:100%;
+}
+.country {
+    margin: 32px -8px 0px;
+    display:inline-block;
+}
+h2 {
+
+    display: block;
+}
+.country-head {
+    line-height: 22.5px;
+    float: left;
+    width:33.3333%;
+    padding:0px 8px;
+    margin-bottom: 16px;
+}
+.content-country {
+    background:#fff;
+    padding: 0.15px 16px;
+}
+.conten-country1{
+    font-weight: bolder;
+    padding:15px 0px;
+}
+.conten-country2{
+    padding:15px 0px;
+    opacity: 0.5;
+}
+.conten-country3{
+    padding:15px 0px;
+}
+.tikets {
+    color:#fff;
+    padding: 8px 16px;
+    margin-bottom: 15px;
+    background-color: black;
+}
+.tikets:active {
+    background:#ccc;
+}
+.tikets:hover {
+    background-color:#ddd;
+}
+.conten-setion2 {
+    max-width: 800px;
+}
+.content-contact1 {
+    display:block;
+    float: left;
+    width:50%;
+    font-size:18px;
+    line-height: 27px;
+    margin-bottom: 16px;
+}
+.contact-heading {
+     text-align:center;
+}
+.conten-setion2 {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 16px;
+   
+    
+}
+.conten-setion2 .contact1 {
+    margin: 10px 0px;
+}
+.contact2 {
+    margin: 15px 0px;
+}
+.content-contact {
+    overflow: hidden;
+    font-size: 15px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.Name {
+    padding: 8px 8px;
+}
+.Email {
+    padding: 8px 8px;
+}
+.message {
+    padding: 8px 8px;
+}
+.ngang {
+    float: left;
+    margin-bottom: 8px;
+    width: 50%;
+    padding: 0 8px;
+    
+}
+.message-row {
+    padding: 0 8px;
+}
+.button {
+    float: right;
+    background:#000;
+    color:#fff;
+    padding: 8px 16px;
+    margin: 16px 8px;
+
+    border: 0px  solid #000;
+}
+.button:hover {
+    background:#ccc;
+}
+#footer {
+
+}
+.picture-footer {
+    opacity: 0.8;
+}
